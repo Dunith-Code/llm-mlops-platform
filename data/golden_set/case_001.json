@@ -1,0 +1,5 @@
+{
+  "run_id": "run_seed123_retrain",
+  "question": "What went wrong with this training run, if anything?",
+  "expected_cause": "RNG seeding was missing from the retrain notebook, so this cannot be treated as a valid seed-123 run for comparison against other seeds."
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "run_loss_explosion",
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "episodes": 300,
+    "memory_capacity": 20000,
+    "seed_intended": 42
+  },
+  "seed_config": {
+    "seeded": true
+  },
+  "metrics": {
+    "loss_curve_summary": "stable until episode ~150, then diverged sharply",
+    "likely_cause": "learning rate too high combined with growing replay buffer variance",
+    "notes": "Training was halted early due to loss explosion; required LR reduction and restart."
+  }
+}

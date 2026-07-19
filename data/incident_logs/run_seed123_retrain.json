@@ -1,0 +1,17 @@
+{
+    "run_id": "run_seed123_retrain",
+    "hyperparameters": {
+        "learning_rate": 0.005,
+        "episodes": 500,
+        "memory_capacity": 5000,
+        "seed_intended": 123
+    },
+    "seed_config": {
+        "seeded": false,
+        "note": "RNG seeding was missing from this retrain notebook, so results are not a valid seed-123 run despite the filename/label."
+    },
+    "metrics": {
+        "mean_reward": null,
+        "notes": "Do not compare directly against seed 42/456 runs due to missing seeding."
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "run_id": "run_loss_explosion",
+  "question": "What went wrong with this training run, if anything?",
+  "expected_cause": "Learning rate was too high, causing the loss to diverge sharply around episode 150."
+}

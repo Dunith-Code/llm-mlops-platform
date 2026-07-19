@@ -1,0 +1,16 @@
+{
+  "run_id": "run_healthy_seed42",
+  "hyperparameters": {
+    "learning_rate": 0.0005,
+    "episodes": 500,
+    "memory_capacity": 50000,
+    "seed_intended": 42
+  },
+  "seed_config": {
+    "seeded": true
+  },
+  "metrics": {
+    "mean_reward": 4513.74,
+    "notes": "Full model, normal training, no anomalies."
+  }
+}

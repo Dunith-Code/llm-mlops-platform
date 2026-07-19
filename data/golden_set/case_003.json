@@ -1,0 +1,5 @@
+{
+  "run_id": "run_healthy_seed42",
+  "question": "What went wrong with this training run, if anything?",
+  "expected_cause": "Nothing went wrong. This was a normal, properly seeded run with expected performance."
+}
